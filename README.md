@@ -8,18 +8,22 @@ I build small, inspectable systems to work through questions I keep running into
 
 ## What I'm building
 
-### ✦ Ash Intelligence Systems Lab
+### ✦ Ash Intelligence Interactive Systems Lab
 Twenty runnable AI/product systems across agent control, evaluation, RAG, risk, fintech, observability, product intelligence and discovery.
 
-**[Explore the systems lab →](https://github.com/AshIntelligence/agenticmine)**
+**[Open the live lab →](https://ash-intelligence-lab.streamlit.app/)**  
+[Source](https://github.com/AshIntelligence/agenticmine)
 
 The repository includes a shared Streamlit interaction layer, runnable Python engines, self-checks, behavioral evals and CI. Every system can be followed from input → decision → output.
 
 ### Flagship systems
 
-- **[MAUTAM — AI Product Evaluation](https://github.com/AshIntelligence/AI-Observability)** · model quality, adoption, workflow success, trust, availability and business impact → SHIP / TUNE / SIMPLIFY / STOP
-- **[Agent Control Plane](https://github.com/AshIntelligence/agent-control-plane)** · agent registry, tool authorization, approval gates, rollout controls, cost and incident thresholds
-- **[Risk Decision System](https://github.com/AshIntelligence/risk-decision-system)** · explainable ALLOW / REVIEW / BLOCK decisions from synthetic risk signals
+- **[MAUTAM — AI Product Evaluation](https://github.com/AshIntelligence/AI-Observability)** · model quality, adoption, workflow success, trust, availability and business impact → SHIP / TUNE / SIMPLIFY / STOP  
+  [Try it live →](https://ash-intelligence-lab.streamlit.app/?product=mautam-evaluation)
+- **[Agent Control Plane](https://github.com/AshIntelligence/agent-control-plane)** · agent registry, tool authorization, approval gates, rollout controls, cost and incident thresholds  
+  [Try it live →](https://ash-intelligence-lab.streamlit.app/?product=agentic-product-control-plane)
+- **[Risk Decision System](https://github.com/AshIntelligence/risk-decision-system)** · explainable ALLOW / REVIEW / BLOCK decisions from synthetic risk signals  
+  [Try it live →](https://ash-intelligence-lab.streamlit.app/?product=fraud-signal-decision-engine)
 
 ## How I think about AI products
 
