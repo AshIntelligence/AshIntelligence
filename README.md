@@ -2,24 +2,24 @@
 
 **Product & Technology Leader · AI Systems · Platforms · Fintech · Trust**
 
+[![System checks](https://github.com/AshIntelligence/agenticmine/actions/workflows/tests.yml/badge.svg)](https://github.com/AshIntelligence/agenticmine/actions/workflows/tests.yml)
+
 I build small, inspectable systems to work through questions I keep running into in AI product work: when an agent should act, when it should stop, how to ground an answer, how to review a risky action, how to measure whether something is actually useful, and how to keep cost, reliability and control visible.
 
 ## What I'm building
 
-### ✦ Ash Intelligence Interactive Systems Lab
+### ✦ Ash Intelligence Systems Lab
 Twenty runnable AI/product systems across agent control, evaluation, RAG, risk, fintech, observability, product intelligence and discovery.
 
-**[Open the live lab →](https://ash-intelligence-lab.streamlit.app/)**  
-[Source](https://github.com/AshIntelligence/agenticmine)
+**[Explore the systems lab →](https://github.com/AshIntelligence/agenticmine)**
+
+The repository includes a shared Streamlit interaction layer, runnable Python engines, self-checks, behavioral evals and CI. Every system can be followed from input → decision → output.
 
 ### Flagship systems
 
-- **[MAUTAM — AI Product Evaluation](https://github.com/AshIntelligence/AI-Observability)** · model quality, adoption, workflow success, trust, availability and business impact → SHIP / TUNE / SIMPLIFY / STOP  
-  [Try it live →](https://ash-intelligence-lab.streamlit.app/?product=mautam-evaluation)
-- **[Agent Control Plane](https://github.com/AshIntelligence/agent-control-plane)** · agent registry, tool authorization, approval gates, rollout controls, cost and incident thresholds  
-  [Try it live →](https://ash-intelligence-lab.streamlit.app/?product=agentic-product-control-plane)
-- **[Risk Decision System](https://github.com/AshIntelligence/risk-decision-system)** · explainable ALLOW / REVIEW / BLOCK decisions from synthetic risk signals  
-  [Try it live →](https://ash-intelligence-lab.streamlit.app/?product=fraud-signal-decision-engine)
+- **[MAUTAM — AI Product Evaluation](https://github.com/AshIntelligence/AI-Observability)** · model quality, adoption, workflow success, trust, availability and business impact → SHIP / TUNE / SIMPLIFY / STOP
+- **[Agent Control Plane](https://github.com/AshIntelligence/agent-control-plane)** · agent registry, tool authorization, approval gates, rollout controls, cost and incident thresholds
+- **[Risk Decision System](https://github.com/AshIntelligence/risk-decision-system)** · explainable ALLOW / REVIEW / BLOCK decisions from synthetic risk signals
 
 ## How I think about AI products
 
@@ -36,7 +36,7 @@ Twenty runnable AI/product systems across agent control, evaluation, RAG, risk, 
 
 ## Elsewhere
 
-**[Portfolio](https://ashbaskaran.netlify.app/)** · **[LinkedIn](https://www.linkedin.com/in/ashb27)**
+**[LinkedIn](https://www.linkedin.com/in/ashb27)**
 
 ---
 
