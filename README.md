@@ -2,9 +2,7 @@
 
 **Product & Technology Leader · AI Systems · Platforms · Fintech · Trust**
 
-[![System checks](https://github.com/AshIntelligence/agenticmine/actions/workflows/tests.yml/badge.svg)](https://github.com/AshIntelligence/agenticmine/actions/workflows/tests.yml)
-
-I build small, inspectable systems to work through questions I keep running into in AI product work: when an agent should act, when it should stop, how to ground an answer, how to review a risky action, how to measure whether something is actually useful, and how to keep cost, reliability and control visible.
+I build small, inspectable systems around the parts of AI products I care about most: when an agent should act, when it should stop, how an answer is grounded, where human review belongs, how product health is measured, and how cost, reliability and control stay visible.
 
 ## What I'm building
 
@@ -14,7 +12,7 @@ Twenty runnable AI/product systems across agent control, evaluation, RAG, risk, 
 **[Open the live lab →](https://ash-intelligence-lab.streamlit.app/)**  
 [Source](https://github.com/AshIntelligence/agenticmine)
 
-The repository includes a shared Streamlit interaction layer, runnable Python engines, self-checks, behavioral evals and CI. Every system can be followed from input → decision → output.
+The repository includes a shared Streamlit interaction layer, runnable Python engines, behavioral evals and CI. Every system can be followed from input → decision → output.
 
 ### Flagship systems
 
