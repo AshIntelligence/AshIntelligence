@@ -2,47 +2,43 @@
 
 **Product & Technology Leader · AI Systems · Platforms · Fintech · Trust**
 
-> **I prototype far enough to test the product judgment.**
+I use these repos to work through product decisions in code: where autonomy belongs, what should stay deterministic, how controls fit into the flow, how quality is measured, and how risk turns into action.
 
-The point of this GitHub is not code volume. It is making product decisions executable and inspectable: **what should be autonomous, what should stay deterministic, where human review belongs, how quality is measured, and what the system should do when the evidence says “not yet.”**
+The systems are deliberately compact. Each one is built far enough to make the mechanism visible — inputs, state, policy, decision logic, failure paths and output.
 
-## ✦ Ash Intelligence
-### AI product systems for decisions that matter.
+## Ash Intelligence
 
-**20 runnable systems. Three questions. One product philosophy.**
+**20 runnable systems organized around three recurring product decisions.**
 
-| Pillar | Product question | What it explores |
-|---|---|---|
-| **CONTROL** | When should AI act, stop, or ask a human? | agency boundaries, tool permissions, approval gates, orchestration, rollout |
-| **EVALUATE** | How do we know the product is actually working? | grounding, evals, adoption, observability, experiments, product evidence |
-| **DECIDE** | How do we turn evidence and policy into explainable action? | risk, fintech, ranking, incident response, policy tradeoffs |
+| Area | What I am working through |
+|---|---|
+| **CONTROL** | Autonomy, permissions, approval, orchestration and rollout boundaries |
+| **EVALUATE** | Quality, grounding, adoption, reliability, experiments and product health |
+| **DECIDE** | Risk, fintech, ranking, incident response and policy tradeoffs |
 
-**[Open the live Ash Intelligence Lab →](https://ash-intelligence-lab.streamlit.app/)**  
-[Browse the lab source →](https://github.com/AshIntelligence/agenticmine)
+**[Open the live systems lab →](https://ash-intelligence-lab.streamlit.app/)**  
+[Browse the source →](https://github.com/AshIntelligence/agenticmine)
 
-## Start with three flagship systems
+## Start here
 
 ### CONTROL · [Agent Control Plane](https://github.com/AshIntelligence/agent-control-plane)
-**When is an agent actually allowed to act?**  
-Agent registry, tool authorization, human approval, eval gates, cost and incident thresholds, rollout state and auditability.
+Brings agent registration, tool authorization, approval gates, eval thresholds, cost limits, incident signals and rollout state into one control surface.
 
 [▶ Try it live](https://ash-intelligence-lab.streamlit.app/?product=agentic-product-control-plane)
 
 ### EVALUATE · [MAUTAM — AI Product Evaluation](https://github.com/AshIntelligence/AI-Observability)
-**How do you decide whether an AI capability deserves to ship, tune, simplify or stop?**  
-Model quality + adoption + workflow success + trust + availability + measurable impact in one product-level decision system.
+Evaluates an AI capability across model quality, adoption, workflow success, trust, availability and measurable impact, then maps the result to **SHIP / TUNE / SIMPLIFY / STOP**.
 
 [▶ Try it live](https://ash-intelligence-lab.streamlit.app/?product=mautam-evaluation)
 
 ### DECIDE · [Risk Decision System](https://github.com/AshIntelligence/risk-decision-system)
-**How do you contain risk earlier without turning protection into unnecessary customer harm?**  
-Explainable ALLOW / REVIEW / BLOCK decisions with policy thresholds, reason codes and customer-harm tradeoffs kept visible.
+Turns behavioral, payment and identity signals into explainable **ALLOW / REVIEW / BLOCK** decisions while keeping review load and good-user harm visible.
 
 [▶ Try it live](https://ash-intelligence-lab.streamlit.app/?product=fraud-signal-decision-engine)
 
-## What the rest of the lab does
+## The rest of the lab
 
-The other systems are supporting experiments under the same three questions—not twenty unrelated demos.
+The remaining systems extend the same three areas rather than acting as separate portfolio pieces.
 
 - **CONTROL:** Agent vs Workflow Router · Human-in-the-Loop Router · Tool Permission Policy · Finance Close Orchestrator
 - **EVALUATE:** RAG Quality Gate · Retrieval Benchmark · Support Knowledge OS · Telemetry → Product Action · Experiment Analysis · Voice of Customer Synthesis · Evidence-Weighted Prioritization · PRFAQ Product Spec
@@ -50,14 +46,16 @@ The other systems are supporting experiments under the same three questions—no
 
 ## How I use code as a product manager
 
-I keep the prototypes compact enough to trace **input → decision → output**. The code is a way to pressure-test the product boundary: state, policy, permissions, failure modes, metrics, review paths and the tradeoff behind the decision.
+I build enough to test the part that is easy to hand-wave in a document: state, permissions, thresholds, review paths, metrics, failure behavior and the tradeoff behind the decision.
 
-- Use agency only where variability and ambiguity earn it.
-- Ground before generation when the answer should be evidence-based.
-- Keep permissions, state, budgets and rollout rules explicit.
-- Treat human review and escalation as real product states.
-- Evaluate the whole system—not only the model.
-- Prefer an inspectable prototype over a polished diagram when the prototype can expose a weak assumption faster.
+- Use an agent only when the work earns the added autonomy.
+- Keep deterministic work deterministic.
+- Put permissions, approval and rollout rules outside model behavior.
+- Treat escalation and human review as normal product states.
+- Measure the product around the model, not only the model itself.
+- Trace the path from input to decision to output.
+
+Code is useful when it exposes a weak assumption faster than a deck.
 
 ## Elsewhere
 
