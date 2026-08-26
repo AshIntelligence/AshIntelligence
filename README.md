@@ -48,6 +48,8 @@ The remaining systems extend the same three areas rather than acting as separate
 
 I build enough to test the part that is easy to hand-wave in a document: state, permissions, thresholds, review paths, metrics, failure behavior and the tradeoff behind the decision.
 
+The lab spans discovery, experimentation, prioritization, evaluation, decisioning and platform control; code is the medium for testing the product mechanics.
+
 - Use an agent only when the work earns the added autonomy.
 - Keep deterministic work deterministic.
 - Put permissions, approval and rollout rules outside model behavior.
