@@ -4,22 +4,31 @@
 
 I use these repos to work through product decisions in code: where autonomy belongs, what should stay deterministic, how controls fit into the flow, how quality is measured, and how risk turns into action.
 
-The systems are deliberately compact. Each one is built far enough to make the mechanism visible — inputs, state, policy, decision logic, failure paths and output.
+The systems are deliberately compact. Each one is built far enough to make the product logic visible — inputs, state, policy, decision paths, failure modes and output.
 
 ## Ash Intelligence
 
-**20 runnable systems organized around three recurring product decisions.**
+**21 runnable systems organized around four recurring product decisions.**
 
 | Area | What I am working through |
 |---|---|
+| **ORCHESTRATE** | Cross-domain context, prioritization, autonomy policy, approvals and follow-up |
 | **CONTROL** | Autonomy, permissions, approval, orchestration and rollout boundaries |
 | **EVALUATE** | Quality, grounding, adoption, reliability, experiments and product health |
 | **DECIDE** | Risk, fintech, ranking, incident response and policy tradeoffs |
 
 **[Open the live systems lab →](https://ash-intelligence-lab.streamlit.app/)**  
+**[Open Ash OS →](https://ash-intelligence-lab.streamlit.app/Ash_OS)**  
 [Browse the source →](https://github.com/AshIntelligence/agenticmine)
 
 ## Start here
+
+### ORCHESTRATE · Ash OS — Personal Control Plane
+A persistent-assistant product concept above inbox, calendar, money, career and travel. It asks four practical questions: **what changed, what matters, what can the system handle, and what still needs Ash?**
+
+The demo routes synthetic signals to **HANDLE / DRAFT / ASK ASH / WATCH** through explicit policy for confidence, sensitivity, reversibility, spend and external commitments. High model confidence never automatically grants execution authority.
+
+[▶ Try Ash OS live](https://ash-intelligence-lab.streamlit.app/Ash_OS) · [Source](https://github.com/AshIntelligence/agenticmine/blob/main/pages/1_Ash_OS.py)
 
 ### CONTROL · [Agent Control Plane](https://github.com/AshIntelligence/agent-control-plane)
 Brings agent registration, tool authorization, approval gates, eval thresholds, cost limits, incident signals and rollout state into one control surface.
@@ -38,8 +47,9 @@ Turns behavioral, payment and identity signals into explainable **ALLOW / REVIEW
 
 ## The rest of the lab
 
-The remaining systems extend the same three areas rather than acting as separate portfolio pieces.
+The remaining systems extend the same four areas rather than acting as separate portfolio pieces.
 
+- **ORCHESTRATE:** Ash OS · Personal Control Plane
 - **CONTROL:** Agent vs Workflow Router · Human-in-the-Loop Router · Tool Permission Policy · Finance Close Orchestrator
 - **EVALUATE:** RAG Quality Gate · Retrieval Benchmark · Support Knowledge OS · Telemetry → Product Action · Experiment Analysis · Voice of Customer Synthesis · Evidence-Weighted Prioritization · PRFAQ Product Spec
 - **DECIDE:** Payment Provider Onboarding · Billing Reconciliation · Incident Triage · Career Discovery Ranking · Intentional Discovery Ranking
@@ -48,7 +58,7 @@ The remaining systems extend the same three areas rather than acting as separate
 
 I build enough to test the part that is easy to hand-wave in a document: state, permissions, thresholds, review paths, metrics, failure behavior and the tradeoff behind the decision.
 
-The lab spans discovery, experimentation, prioritization, evaluation, decisioning and platform control; code is the medium for testing the product mechanics.
+The lab spans discovery, experimentation, prioritization, evaluation, decisioning, orchestration and platform control; code is the medium for testing the product mechanics.
 
 - Use an agent only when the work earns the added autonomy.
 - Keep deterministic work deterministic.
